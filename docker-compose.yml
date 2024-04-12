@@ -6,7 +6,7 @@ services:
     restart: always
     # network_mode: host
     environment:
-      - TZ=Europe/Stockhoolm
+      - TZ=Europe/Oslo
       - PGID=1000
       - PUID=1000
       - HOMEBRIDGE_CONFIG_UI=1

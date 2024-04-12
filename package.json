@@ -1,7 +1,7 @@
 {
-    "name": "homebridge-glue",
-    "version": "3.0.6",
-    "description": "Glue Smart Lock integration for Homebridge",
+    "name": "homebridge-glue-mqtt",
+    "version": "0.0.1",
+    "description": "Glue Smart Lock integration for Homebridge with MQTT",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -9,7 +9,7 @@
         "prepare": "tsc"
     },
     "author": {
-        "name": "Tobias Jeppesen"
+        "name": "Tobias Jeppesen, Simone Pittis"
     },
     "keywords": [
         "homebridge-plugin",
@@ -17,11 +17,12 @@
         "gluehome",
         "homebridge",
         "lock",
-        "homekit"
+        "homekit",
+        "mqtt"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/jeppesens/homebridge-glue"
+        "url": "https://github.com/simonepittis/homebridge-plugin-mqtt"
     },
     "engines": {
         "node": ">=0.12.0",

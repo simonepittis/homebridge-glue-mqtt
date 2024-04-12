@@ -1,9 +1,10 @@
 # homebridge-glue
 ### Homebridge integration for Glue smart locks
 Based on Glues new API *Jan 2021*.
+Fork from git(https://github.com/jeppesens/homebridge-glue), Thanks Tobias Jeppesen
 ---
 # Installation
-install `npm i -g homebridge-glue`
+install `npm i -g homebridge-glue-mqtt`
 
 ---
 
@@ -32,7 +33,7 @@ curl --request POST 'https://user-api.gluehome.com/v1/api-keys' \
   "accessories": [
     ...
     {
-      "accessory": "homebridge-glue.glue-lock",
+      "accessory": "homebridge-glue-mqtt.glue-lock",
       "name": "Front Door Lock", //OPTIONAL, default "Glue Lock"
       "lock-id": "432c7f7a-ea53-11e8-9f32-f2801f1b9fd1", // OPTIONAL
       "username": "myname@example.com", // OPTIONAL, see below for more info

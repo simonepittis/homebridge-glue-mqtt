@@ -2,13 +2,13 @@
     "pluginAlias": "Glue",
     "pluginType": "accessory",
     "headerDisplay": "You must have a Glue lock with a hub and username password or api-key.",
-    "footerDisplay": "For info see [Github](https://github.com/jeppesens/homebridge-glue).",
+    "footerDisplay": "For info see [Github](https://github.com/simonepittis/homebridge-plugin-mqtt).",
     "$id": "http://example.com/example.json",
     "$schema": "http://json-schema.org/draft-07/schema",
     "default": {
         "name": "Glue"
     },
-    "description": "Config for homebridge-glue",
+    "description": "Config for homebridge-glue-mqtt",
     "examples": [
         {
             "name": "Glue",
@@ -23,7 +23,7 @@
             "required": ["name", "username", "password"]
         }
     ],
-    "title": "homebridge-glue config",
+    "title": "homebridge-glue-mqtt config",
     "type": "object",
     "properties": {
         "name": {
