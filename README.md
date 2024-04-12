@@ -1,5 +1,7 @@
 # homebridge-glue
 ### Homebridge integration for Glue smart locks
+IN DEVELOP MODE - DON'T USE IT
+
 Based on Glues new API *Jan 2021*.
 Fork from git(https://github.com/jeppesens/homebridge-glue), Thanks Tobias Jeppesen
 ---
